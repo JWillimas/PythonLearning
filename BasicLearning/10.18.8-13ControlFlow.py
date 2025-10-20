@@ -46,3 +46,23 @@
 
 # for list in [1, 3, 5, 7, 9]:
 #     print(list)
+
+# 12-While Loop
+# i = 100
+# while i > 0:
+#     print("what we got", i)
+#     i /= 2
+
+# command = ""
+# while command.upper() != "QUITE":
+#     # command.lower and command.upper() can
+#     # convert the input into lower case or upper case
+#     # more better than list too much situation:like "Quit" "quIt" "QUit".....
+
+#     command = input("Enter your command: ")
+#     print("You entered:", command)
+#     print("\n")
+
+# print("You exited the loop.")
+
+# 13-Infinite Loop
