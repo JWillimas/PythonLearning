@@ -66,3 +66,30 @@
 # print("You exited the loop.")
 
 # 13-Infinite Loop
+
+# 14-Exercise
+# My Solution:
+# while True:
+#     limit = int(input("Enter the number: "))
+#     n = 0
+#     for i in range(limit):
+#         if i % 2 == 0:
+#             print(f"{i} \n")
+#             n += 1
+#     print(f"We have {n} even numbers from 0 to {limit}\n")
+
+#     cont = input("Do you want to continue? (yes/no): ")
+
+#     if cont.lower() == "no":
+#         break
+
+# print("Program ended.")
+
+# Mosh Solution:
+
+count = 0
+for i in range(1, 10):
+    if i % 2 == 0:
+        count += 1
+        print(i)
+print(f"We have {count} even numbers")
