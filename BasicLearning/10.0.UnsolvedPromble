@@ -12,4 +12,5 @@
         2.  how to make my charecter do operation?
         3.  how to input ctrl+D quite the program? 
 
-2.      
+2.      print(greet("John"))  
+        # How the print function Read and Work?
