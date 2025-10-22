@@ -76,16 +76,16 @@
 # The "if "syntax is confirm sentence by sentence in order of input
 # Because if the last line is false ,it will go next;
 
-def Fizz_Buzz(input):
-    if (input % 3 == 0) and (input % 5 == 0):
-        return "Fizz\nBuzz"
-    if input % 3 == 0:
-        return "Fizz"
-    if input % 5 == 0:
-        return "Buzz"
+# def Fizz_Buzz(input):
+#     if (input % 3 == 0) and (input % 5 == 0):
+#         return "Fizz\nBuzz"
+#     if input % 3 == 0:
+#         return "Fizz"
+#     if input % 5 == 0:
+#         return "Buzz"
 
-    return input
+#     return input
 
 
-Num = input("\nPlease input your num:\n")
-print(Fizz_Buzz(int(Num)), "\n")
+# Num = input("\nPlease input your num:\n")
+# print(Fizz_Buzz(int(Num)), "\n")
