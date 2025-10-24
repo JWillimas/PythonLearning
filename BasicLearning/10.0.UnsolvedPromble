@@ -2,8 +2,8 @@
         1.open Vpn mark down the port num that it got;
         2.configure git proxy anget:
         git config --global http.proxy http://127.0.0.1:(port num)
-        3.Verify the proxy setting have take affected.
-
+        3.Verify the proxy setting have take affected：git config --global -l
+        4.
 1.      I Would like to make a terminal 
         it work like the python exe.
         i can do plus,multiplication,division .....
