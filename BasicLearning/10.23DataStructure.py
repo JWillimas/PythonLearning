@@ -22,4 +22,4 @@
 # print(f"{char}\n")
 # print(len(char))
 
-# 2-
+# 2-Accessing Items
