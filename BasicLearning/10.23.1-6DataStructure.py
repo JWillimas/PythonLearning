@@ -43,7 +43,6 @@
 # unpacking-unpack the numbers to the
 # left side of silent operator,use asterisk there
 # packing all the other items into a seperate list
-# items--->>>pack--->>to list
 # like :def multiply(*items)
 #               items(1,2,3,4)
 
