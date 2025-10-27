@@ -110,3 +110,13 @@
 # print(numbers)
 
 # 6-Finding Items
+# Letters = list("abcddddd")
+# indices = [i for i, char in enumerate(Letters) if char == 'd']
+# print(indices)
+
+# indices=[i......]the expression to include new items in the new list
+
+# Letters.index(),tell the char's index in the list
+
+# print(Letters.count("d"))
+# Letters.count("items") the numbers of occurrences of given items
