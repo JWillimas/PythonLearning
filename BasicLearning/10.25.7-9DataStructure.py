@@ -38,6 +38,10 @@
 
 # 8-Lambda Function
 # Improve the sort code and make it clearer by use Lambda
+# The lambda function syntax:
+# lambda item : item[1]
+# item para represent each item in the list
+# item[1] accesses the second element of each item
 
 # items = [
 #     (7, 1),
