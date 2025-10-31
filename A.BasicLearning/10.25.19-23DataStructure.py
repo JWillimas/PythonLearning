@@ -185,3 +185,24 @@
 
 # print(char_frenquneces_sorted)
 # char_frequency.items(),return all the key value of tuple
+
+# ------------------------------
+# # Deep_Seek Solution:
+
+# from pprint import pprint
+
+# sentence = "This is a common interview question"
+
+# char_fre = {}
+
+# for char in sentence:
+#     if char in char_fre:
+#         char_fre[char] += 1
+#     else:
+#         char_fre[char] = 1
+# # Find max frequency and get all characters with that frequency
+# max_freq = max(char_fre.values())
+# max_freq_chars = [(char, freq)
+#                   for char, freq in char_fre.items() if freq == max_freq]
+# # Comprehension:[expression for *unpacking elements in lists(tuple) Filter condition]
+# pprint(max_freq_chars)
