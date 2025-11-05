@@ -111,4 +111,23 @@
 # fish = mammal()
 # print(fish.age)
 
-# 15-
+# 15-Multi-Level Inheritance
+
+# Inheritance-abuse
+
+# 16-Multiple Inheritance:
+# class Teacher:
+#     def greet():
+#         print("Teacher greet")
+
+
+# class Student:
+#     def greet():
+#         print("Student greet")
+
+
+# class precident(Teacher, Student):
+#     pass
+
+
+# precident.greet()
