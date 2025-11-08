@@ -33,3 +33,12 @@
 # print(sales.__name__)
 # print(sales.__cached__)
 # print(sales.__doc__)
+
+#8-Executing Modules as Script
+# import sys
+# import os
+
+# # Add the project root to Python path
+# sys.path.append(r"d:\VScodeFile\PythonLearning\E.Modules\11.6Modules")
+
+from  ecommerce.shopping import sales
