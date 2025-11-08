@@ -19,10 +19,17 @@
 # import ecommerce.sales
 # ecommerce.sales.calc_shipping()
 
-from ecommerce.shopping import sales
-from ecommerce.customer import contact
+#5-dir function
 
-contact.contact_customer()
+# from ecommerce.shopping import sales
+# from ecommerce.customer import contact
 
+# # contact.contact_customer()
 
-sales.calc_shipping()
+# # sales.calc_shipping()
+
+# print(dir(sales))
+# #use dir to access all the method and attributes in this object
+# print(sales.__name__)
+# print(sales.__cached__)
+# print(sales.__doc__)
