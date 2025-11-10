@@ -162,13 +162,34 @@
 #--------------------------------------------------------------------
 #11-Working with Time Deltas
 
+# from datetime import datetime,timedelta
+
+# dt1=datetime(2018,1,1)+timedelta(Days=1)
+# #Use Key word argument to clarity
+# dt2=datetime.now()
 
 
-
-
-
-
-
-
+# duration=dt2-dt1
+# print(duration)
+# print("days",duration.days)
+# print("seconds",duration.seconds)
+# print("total_seconds",duration.total_seconds())
 
 #--------------------------------------------------------------------
+#12-Generating Random Values
+
+import random
+import string
+
+num=[1.2,4.5,5.5,6.6]
+
+print(random.random())
+print(random.randint(1,10))
+print(random.choice([1.2,4.5]))
+print(random.choices(num,cum_weights=[1, 2, 3, 4, 14],k=2))
+# print("".join(random.choices(
+#     string.ascii_uppercase+"",k=27)))
+
+#--------------------------------------------------------------------
+
+
