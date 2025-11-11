@@ -60,14 +60,52 @@
 
 #--------------------------------------------------------------------
 #16-Command-line Argument
+# import sys
+
+# print(sys.argv)
+#argv:argument varieble
+
+# #In VScode We got to input the whole File Path
+# #python "d:\VScodeFile\PythonLearning\F.PythonStandardLibrary\11.10.13PythonStandardLibrary.py" '-a' '-b'
 
 
+# if len(sys.argv) ==1:#This means user have not supplied any argument
+#     #this array always has 1 item(Name of our file)
+#     print(f"USAGE: python",
+#           "\"d:\\VScodeFile\\PythonLearning\\F.PythonStandardLibrary\\11.10.13PythonStandardLibrary.py\"" ,
+#           "<password>")
+#     # "\"Escape double Quotes  use '\\'double Quotation to no use the escape char
+
+# else:
+#     password=sys.argv[1]
+#     print(type(password))
+#     print("Password",password)
 
 
 
 #--------------------------------------------------------------------
 
 #17-Running External Program
+#learn how to run any of the operating system commands
+#as well as external programs
+
+import subprocess
+
+
+completed = subprocess.run(["cmd","/c","false"],
+                                                capture_output=True,
+                                                text=True,
+                                                check=True)#ProcessOpenClass
+print("args",completed.args)
+print("returncode",completed.returncode)#return any none zero return code stand error
+#
+print("stderr",completed.stderr)#stand error
+print("stdout",completed.stdout)#prefixed with b,binary object
+
+
+
+
+
 
 
 
