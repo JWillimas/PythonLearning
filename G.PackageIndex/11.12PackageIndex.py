@@ -23,3 +23,18 @@ import requests
 print(requests.get("http://google.com"))
 
 #---------------------------------------
+#5-Virtual Enviorment in VScode
+
+#---------------------------------------
+#6-PIpFile :
+#Chances are in the future 
+# when we put this project on a different machine
+#And install denpendencies 
+# we might have a newer version of request package
+
+#install pipenv:pip install pipenv
+#install requests : pipenv install requests 
+#--------------------------------------- 
+
+
+
